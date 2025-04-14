@@ -6,7 +6,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load preprocessed dataset
-file_path = "preprocessed_parkinsons_data.csv"  # Ensure this file exists
+file_path = "preprocessed_parkinsons_full.csv"  # Ensure this file exists
 df = pd.read_csv(file_path)
 
 # Define features (X) and target (y)
